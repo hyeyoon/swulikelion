@@ -22,7 +22,7 @@
 }
 */
 
-/*폰트관련 수정 필요 
+/*폰트관련 수정 필요
 @import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);*/
 
 
@@ -74,10 +74,10 @@ p {
     line-height: 1.5;
 }
 #schedule {
-    background-color: rgb(251,178,76);    
+    background-color: rgb(251,178,76);
 }
 #services {
-    background-color: rgb(251,178,76);    
+    background-color: rgb(251,178,76);
 }
 
 
@@ -214,7 +214,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('/assets/home/likelion-swu.png');
+    background-image: url(image_path('home/likelion-swu.png'));
     background-color: #AD3E43;
     background-position: center;
     -webkit-background-size: cover;
@@ -258,7 +258,7 @@ header {
 		}
 		.mobile {
 			display: block;
-			background-image: url('/assets/home/mobilemain.png');
+      background-image: url(image_path('home/mobilemain.png'));
 			background-position: center center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -266,13 +266,13 @@ header {
 		}
 		.mobile2 {
 		    display: block;
-			background-image: url('/assets/home/schedule3.png');
+        background-image: url(image_path('home/schedule3.png'));
 			background-position: center center;
 			background-size: cover;
 			background-repeat: no-repeat;
 			width: 100%;
 		}
-		
+
 		#iframe {
 		    width: 300px;
 		    height: 230px;
@@ -295,7 +295,7 @@ header .header-content .header-content-inner .dankook {
 		z-index: 9999;
 }
 
-header .header-content .header-content-inner .computer { 
+header .header-content .header-content-inner .computer {
    width: 520px;
 }
 
@@ -304,7 +304,7 @@ header .header-content .header-content-inner .clip{
    width:10%;
 }
 header .header-content .header-content-inner .text_png{
-    
+
 }
 
 header .header-content .header-content-inner .coffee {
@@ -337,7 +337,7 @@ header .header-content .header-content-inner p {
 }
 .service-logo {
     width: 70%;
-    
+
 }
 .service-font {
     margin-top: 5%;
@@ -365,7 +365,7 @@ header .header-content .header-content-inner p {
 
 @media (max-width : 1248px) {
     .computer{
-        margin-top: -3em;    
+        margin-top: -3em;
     }
     .clip{
         display:none;
@@ -374,9 +374,9 @@ header .header-content .header-content-inner p {
         display:none;
     }
     .paper {
-        display:none;        
+        display:none;
     }
-    
+
     .video {
      width:auto;
      height:auto;
@@ -419,7 +419,7 @@ header .header-content .header-content-inner p {
     padding: 3em 0em;
 }
 .service-box .logo {
-    height: 200px;    
+    height: 200px;
 }
 
 .service-box p {
@@ -680,7 +680,7 @@ body {
   font-weight: normal;
   line-height: 1;
   width: 20px;
-}  
+}
 .carousel {
   position: relative;
 }
