@@ -1,0 +1,2 @@
+module DankookHelper
+end
